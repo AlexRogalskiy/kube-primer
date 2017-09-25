@@ -1,0 +1,73 @@
+    1  kubectl
+    2  java 
+    3  sudo apt-get install openjdk-8-jre-headless
+    4  java -version
+    5  curl get.nextflow.io | bash
+    6  ls -la
+    7  ls -la /mnt/
+    8  ls -la 
+    9  ls -a /
+   10  ls -la /mnt/
+   11  kubectl
+   12  kubectl get pods
+   13  kubectl get pods --all
+   14  kubectl get pods --all-namespaces 
+   15  kubectl get pods --all-namespaces -o wide | less -S
+   16  kubectl --help
+   17  kubectl get pods --all-namespaces -o wide | less -S
+   18  kubectl describe pod/glusterfs-rzcbk
+   19* kubectl describes pods/glusterfs-rzcbk
+   20  kubectl describes pod/glusterfs-rzcbk
+   21  kubectl describes glusterfs-rzcbk
+   22  kubectl describe glusterfs-rzcbk
+   23  kubectl describe --help
+   24  kubectl describe pods/glusterfs-rzcbk
+   25  kubectl describe pods glusterfs-rzcbk
+   26  kubectl get pods --all-namespaces -o wide | less -S
+   27  kubectl describe --all-namespaces pods glusterfs-rzcbk
+   28  kubectl describe pods/glusterfs-rzcbk --all-namespaces
+   29  kubectl describe --help
+   30  kubectl describe pods/glusterfs-rzcbk --all-namespace=true
+   31  vim test.yml
+   32  vim hello.yml
+   33  kubectl create -f hello.yml 
+   34  kubectl get pods
+   35  kubectl get pods --show-all
+   36  kubectl get pods --show-all -o wide
+   37  kubectl describe busybox
+   38  kubectl describe pods/busybox
+   39  kubectl describe pods/busybox | less -L s
+   40  kubectl describe pods/busybox | less -S
+   41  kubectl logs pods/busybox 
+   42  cat hello.yml 
+   43  rm test.yml 
+   44  cp hello.yml vol.yml
+   45  vim vol.yml 
+   46  kubectl create -f vol.yml -o name
+   47  kubectl describe --all-namespaces pods glusterfs-rzcbk
+   48  history | grep all
+   49  kubectl describe pods/glusterfs-rzcbk --all-namespaces
+   50  kubectl get pods --all-namespaces 
+   51  kubectl get pv
+   52  kubectl get pvc
+   53  kubectl describe pod   volumeMounts:
+   54  kubectl get pvc
+   55* kubectl get pods --all-namespac
+   56  kubectl describe pod glusterfs-rzcbk
+   57  kubectl describe pod glusterfs-rzcbk --namespace=storage-heketi
+   58  ls -la /var/lib/heketi
+   59  kubectl get nodes
+
+  5  kubectl describe pod glusterfs-rzcbk --namespace=storage-heketi
+    6  kubectl get --help
+    7  kubectl get --help | less -S
+    8  kubectl get --help | grep vol | less -S
+    9  kubectl get ep
+   10  kubectl get ep --all-namespaces
+   11  kubectl get ep --all-namespaces -o wide
+   18  kubectl get pv
+   19  kubectl get pvc
+   28  kubectl create -f hello2.yml 
+   34  kubectl create -f pod-touch.yml -o name
+   42  kubectl logs pod/ls-1
+   

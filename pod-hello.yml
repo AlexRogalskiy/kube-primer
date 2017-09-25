@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox
+  labels:
+    app: nextflow
+spec:
+  restartPolicy: Never
+  containers:
+  - name: busybox
+    image: debian
+    command: ["echo", "Hello world!"]
