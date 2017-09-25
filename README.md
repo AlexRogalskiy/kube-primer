@@ -155,3 +155,8 @@ Get the output with the command:
 kubectl logs pods/touch-1
 ```
  
+ 
+ 
+## Useful links 
+
+* [Gluster example](https://docs.openshift.org/latest/install_config/storage_examples/gluster_example.html) 
