@@ -160,3 +160,4 @@ kubectl logs pods/touch-1
 ## Useful links 
 
 * [Gluster example](https://docs.openshift.org/latest/install_config/storage_examples/gluster_example.html) 
+* [KinD](https://github.com/kubernetes-sigs/kind) - Kubernetes in Docker
